@@ -8,7 +8,7 @@ function App() {
   const [userIDStore, setUserIDStore] = useState("")
   const [startDate, setStartDate] = useState(new Date());
   const [startDateString, setStartDateString] = useState(`${startDate.getFullYear()}-${('0' + (startDate.getMonth()+1)).slice(-2)}-${('0' + startDate.getDate()).slice(-2)}`);
-  const [customUserID, setCustomUserID] = useState("dylan-finney")
+  const [customUserID, setCustomUserID] = useState("test-account-2")
   const [provider, setProvider] = useState("")
 
   const setUpMetriport = async () => {
